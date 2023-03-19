@@ -17,44 +17,19 @@
     }
   ],
   "scripts": [
-    "scripts/system-script-1.js",
-    "scripts/system-script-2.js"
   ],
   "esmodules": [
-    "scripts/system-module-1.mjs"
   ],
   "styles": [
-    "styles/system-styles-1.css",
-    "styles/system-styles-2.css"
   ],
   "packs": [
-    {
-      "name": "monsters",
-      "label": "My Monsters",
-      "path": "packs/monsters.db",
-      "type": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "My Items",
-      "path": "packs/items.db",
-      "type": "Item"
-    }
   ],
   "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
   ],
-  "socket": false,
+  "socket": true,
   "initiative": "1d20",
-  "gridDistance": 10,
-  "gridUnits": "ft",
+  "gridDistance": 1,
+  "gridUnits": "m",
   "primaryTokenAttribute": "resources.health",
-  "secondaryTokenAttribute": "resources.power",
-  "url": "https://your/hosted/system/repo/",
-  "manifest": "https://your/hosted/system/repo/system.json",
-  "download": "https://your/packaged/download/archive.zip"
+  "secondaryTokenAttribute": "resources.power"
 }
